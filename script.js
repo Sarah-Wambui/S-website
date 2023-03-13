@@ -1,3 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This is written through JavaScript";
-document.querySelector("body").appendChild(h2);
+var ready = (callback) => {
+    if (document.readyState != "loading") callback();
+    else document.addEventListener("DOMContentLoaded", callback);
+}
+ready(() => {
+    document.querySelector(".header").style.height = window.innerHeight + "px";
+})
