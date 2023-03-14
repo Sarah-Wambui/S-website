@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: lightgrey;
+    background-image: url("images/white.jpg");
 }
 .navbar {
     background: rgb(22, 22, 22);
@@ -28,7 +28,46 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
-.header {
-    background-image: url("images/purple.jpg");
-    height: 20px;
+.foot {
+    padding: 70px;
+}
+.headin {
+    padding-top: 200px;
+    font: bold 100px Georgia;
+    text-align: center;
+}
+.pic {
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  float: right;
+}
+.par {
+    font: 50px Arial;
+}
+.about p {
+    font: 20px Verdana;
+    word-spacing: 3px;
+}
+
+.about h2 {
+    text-decoration: underline black 5px solid;
+}
+.snap h4 {
+    text-align: center;
+}
+.container h2 {
+    font: 60px Georgia;
+    text-align: center; 
+    padding: 50px;
+}
+.numbers {
+    font: 20px Arial;
+}
+.contact p {
+    font: 25px Georgia;
+    font-weight: 900px;
+    padding: 10px
+}
+.button {
+    text-align: center;
 }
