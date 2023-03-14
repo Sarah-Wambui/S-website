@@ -1,7 +1,4 @@
-var ready = (callback) => {
-    if (document.readyState != "loading") callback();
-    else document.addEventListener("DOMContentLoaded", callback);
-}
-ready(() => {
-    document.querySelector(".header").style.height = window.innerHeight + "px";
+const input = document.getElementById("input");
+input.addEventListener("click",function(){
+    alert("Thank you for visiting my website")
 })
